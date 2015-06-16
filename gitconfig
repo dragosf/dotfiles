@@ -3,8 +3,10 @@
 	email = dragos.fratila@gmail.com
 [core]
 	excludesfile = ~/dotfiles/gitignore
-	mergeoptions = --no-edit
+	trustctime = false
 [github]
 	user = dragosf
 [alias]
 	unstage = reset HEAD
+[push]
+	default = matching
