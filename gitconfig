@@ -1,0 +1,10 @@
+[user]
+	name = Dragos Fratila
+	email = dragos.fratila@gmail.com
+[core]
+	excludesfile = ~/dotfiles/gitignore
+	mergeoptions = --no-edit
+[github]
+	user = dragosf
+[alias]
+	unstage = reset HEAD
